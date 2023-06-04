@@ -1,0 +1,18 @@
+.title-container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 5px;
+
+  &__column {
+    max-width: 120px;
+    text-align: center;
+
+    & h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+}

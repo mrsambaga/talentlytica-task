@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+  align-items: center;
+
+  &__title {
+    & h1 {
+      font-size: 2rem;
+    }
+  }
+
+  &__grading-section {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__button {
+    margin: 50px;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    justify-content: flex-end;
+  }
+}
